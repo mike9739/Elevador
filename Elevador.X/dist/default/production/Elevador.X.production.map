@@ -1,0 +1,57 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Fri Feb 22 11:20:39 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000e6
+                   .cinit    romdata   0x0000e6    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/ELEVADO    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/ELEVADO    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/ELEVADO    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/ELEVADO    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000e7      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300005    0x300006      
+            236 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+     BAJAR_SEGUNDO_PRIMER   0x0000bc    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+      BAJAR_TERCER_PRIMER   0x0000a4    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     BAJAR_TERCER_SEGUNDO   0x00008c    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                 Mainloop   0x000012    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                  RETARDO   0x0000d8    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                     STOP   0x00003c    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     SUBIR_PRIMER_SEGUNDO   0x000044    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     SUBIR_PRIMER_TERCERO   0x00005c    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     SUBIR_SEGUNDO_TERCER   0x000074    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                    Start   0x000000    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Start   0x000000    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                 Mainloop   0x000012    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                     STOP   0x00003c    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     SUBIR_PRIMER_SEGUNDO   0x000044    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     SUBIR_PRIMER_TERCERO   0x00005c    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     SUBIR_SEGUNDO_TERCER   0x000074    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     BAJAR_TERCER_SEGUNDO   0x00008c    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+      BAJAR_TERCER_PRIMER   0x0000a4    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+     BAJAR_SEGUNDO_PRIMER   0x0000bc    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+                  RETARDO   0x0000d8    program     static C:\Users\aguil\Desktop\Elevador\Elevador.X\elevador.asm
+
+
